@@ -12,3 +12,14 @@
 - looked for a tool to apply a fade-in- and fade-out-effect to the stimuli
   - it is possible to do this in audacity “by hand” 
   - found an [instruction and tool](https://github.com/jiaaro/pydub) to code this in python, but I do not know how exactly fading is made here
+
+
+# week 23.10.-27.10.
+- plotted amplitude over time (ms) and power (dB) over frequency (kHz) to compare the stimuli I made with the ones of Hanke et al.
+  - Wanted to detect if we used a similar kind of fade-out-effect
+  - Also wanted to plot power (dB) over time (ms) but did not find a fitting code 
+- wrote samples for the mail and bulletin we want to use to recruit participants for our study
+- started to work on the online survey we want to use for stimuli validation
+  - used this [open source survey editor](https://surveyjs.io/Editor) to create our own survey
+  - decided which question types we want to use (checkbox, radio group, rating, drag & drop (“sortable”), free text)
+  - decided what demographic questions we want to ask and how validation should work
