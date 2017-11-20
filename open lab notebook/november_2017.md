@@ -9,7 +9,7 @@
 - gained insight in [psychopy](http://www.psychopy.org/)
 - read up on [de Bruijn sequences](https://github.com/MirjamSchneider/MSc_thesis_MirjamSchneider/blob/master/open%20lab%20notebook/De%20Bruijn%20Cycles.pdf) (for stimuli randomisation)
 
-# week 13.11.-17.11.
+# week 13.-17.11.
 - was concerned with randomisation
   - different scripts to generate de Bruijn sequences
   - de Bruijn sequences are not suitable for our experimental design
