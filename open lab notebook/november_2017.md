@@ -21,9 +21,9 @@
 - gave a short presentation on stimuli randomisation in condition rich designs
   - about the tools I tried and why problems occured
 
-# plan for this week
-- understand structure of psychopy-experiment of Hanke et al. 2017
-- write a first synopsis
-- read more about computational models
-- revise ethics proposal for second submission
+# week 27.11.-01.12.
+- revised my ethic proposal for second submission
+  - corrected and added some points concerning pseudonymisation and open data
+- wrote a synopsis for my thesis
+- gained brief insight in the psychopy experiment of Hanke et al. 2017
 
