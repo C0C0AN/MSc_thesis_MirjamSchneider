@@ -21,8 +21,7 @@
 # week 18.12.-22.12.
 - read more about pcm (pattern component modelling)
 - tried to transform make_design script that every delay step should be used equally often in one run (13x6, 13x4, 13x8) - did not work out until now
-- saved OptSeq2-code as a bash script (directory: home/mirjam/bin; execute typing ‘bash optseq2_script’ in terminal)
-ran it on the faster server trying different TRs (1.1, 1.2, 1.3, 1.4., 1.5.)
+- saved OptSeq2-code as a bash script and ran it on the faster server trying different TRs (1.1, 1.2, 1.3, 1.4., 1.5.)
 
 # week 25.12.-29.12.
 - christmas holidays
