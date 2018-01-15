@@ -26,9 +26,10 @@ sequences = [[1,  1,  3,  11,  5,  2,  16,  4,  6,  13,  11,  2,  17,  20,  9,  
              [8,  9,  3,  8,  4,  11,  4,  15,  19,  1,  12,  6,  7,  10,  13,  12,  6,  20,  1,  9,  14,  2,  5,  16,  17,  2,  18,  18,  15,  14,  20,  17,  10,  11,  5,  7,  19,  3,  13,  16]
              ]
 
-# delays between stimuli
-delay_steps = [4, 6, 6, 6, 8]
-
+# delays between stimuli (every delay equally often per run (13x))
+delay_sequence = [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 
+                   6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 
+                   8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
 
 # function creates 8 different runs
 def gen_run(nmbr):
@@ -38,6 +39,13 @@ def gen_run(nmbr):
         # shuffle stimuli
         xy = copy.deepcopy(stimuli)
         random.shuffle(xy)
+        # shuffle delay_sequence
+        ab = copy.deepcopy(delay_sequence)
+        random.shuffle(ab)
+        # to make ab the same length as xy, we add a delay of 0 for the last stimulus
+        # 0 has to be in the first position of the list because we later use pop to allocate the delays to the stimuli
+        ab.insert(0, 0)
+        # create output-file
         ofile = open('run%i.csv' % counter, 'w')
         ofile.write('run,stim,delay\n')
         # get inside the different sequences
@@ -45,8 +53,10 @@ def gen_run(nmbr):
             genre = i
             # genre_stim is the stimuli at a certain position in the randomised stimuli-list xy
             genre_stim = xy[int(genre)-1]
+            # allocate delay
+            delay = ab.pop()
             ofile.write('%s,"%s.wav","%s"\n'
-                    % (counter, genre_stim, delay_steps[random.randrange(5)])) # randomise delay_steps
+                    % (counter, genre_stim, delay)) # randomise delay_steps
         ofile.close()
         counter = counter + 1
         

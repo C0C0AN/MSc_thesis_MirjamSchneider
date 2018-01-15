@@ -1,0 +1,22 @@
+# strcture of my master thesis 
+
+- introduction
+  - music genre perception (in general, current state of research, methods that have been used to detect it)
+  - regions of interest
+  - computational models of music perception
+  - aims of this study
+- material and methods
+  - stimuli
+  - music feature extraction
+  - computational models
+  - participants
+  - inverse multidimensional scaling (incl. experimental procedure)
+  - fMRI data acquisition (incl. experimental procedure)
+- results
+  - music feature analysis
+  - fMRI data
+  - computational comparison of matrices (incl. computational models)?
+- discussion
+  - result similarities and dissimilarities between the different methods
+  - discussion in research context depending on findings
+  - conclusion and future work
