@@ -8,7 +8,7 @@
   - tried different values for field of view and other settings
   - wrote a first version of a scanner protocol to document these settings
   - simulated the (complete) experiment at the laptop to see what kind of result-files are written: writes a calibration.csv-file and a trials.csv-file, produces empty log-file and stopped after the forth run – why?
-- wrote a first structure of my thesis
+- wrote a first [structure of my thesis](https://github.com/MirjamSchneider/MSc_thesis_MirjamSchneider/blob/master/open%20lab%20notebook/structure_thesis.md)
 
 # plan for this week
 - commit revised ethic proposal
