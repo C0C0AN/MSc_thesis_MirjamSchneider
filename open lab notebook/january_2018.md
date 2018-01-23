@@ -10,7 +10,18 @@
   - simulated the (complete) experiment at the laptop to see what kind of result-files are written: writes a calibration.csv-file and a trials.csv-file, produces empty log-file and stopped after the forth run – why?
 - wrote a first [structure of my thesis](https://github.com/MirjamSchneider/MSc_thesis_MirjamSchneider/blob/master/open%20lab%20notebook/structure_thesis.md)
 
+# week 22.01.-26.01.
+- checked psychopy script to see if it breaks again after run 4: script works through whole experiment, wrote csv-files (runs, calibration, trails and whole experiment) and log-file
+  - changed some keypresses and added slides (routines “letsgo_scr” and “letsgoon_scr”)
+- made 8 sec long moviestimuli to show during experimental runs (mkv files)
+  - movie sequences of planet earth (eiswelten, graswelten, meereswelten)
+- submitted revised [ehtic proposal](https://github.com/MirjamSchneider/MSc_thesis_MirjamSchneider/tree/master/ethic%20proposal)
+  - finally got a positive vote
+- talked to Jens about the questionnaire for stimuli validation again
+  - Jens set up the online server for the questionnaire
+  - I have to write the code for the exact questionnaire (order of items etc.)
+
 # plan for this week
-- commit revised ethic proposal
 - work on psychopy-experiment and solve its problems
 - prepare short presentation on methods (for next weeks meeting)
+- write code for online-questionnaire for stimuli validation
