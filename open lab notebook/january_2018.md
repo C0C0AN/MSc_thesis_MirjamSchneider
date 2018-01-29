@@ -21,7 +21,13 @@
   - Jens set up the online server for the questionnaire
   - I have to write the code for the exact questionnaire (order of items etc.)
 
+# week 22.01.-26.01.
+- wrote code for validation questionnaire for Jens
+- tested experiment at the scanner again: still problems with psychopy-experiment und the earphones seem to produce artefacts…
+- updated scanner protocol 
+- tried to include movie sequences in psychopy
+  - problems: auditory stimuli do not play during movie, experiment breaks after movie
+
 # plan for this week
 - work on psychopy-experiment and solve its problems
 - prepare short presentation on methods (for next weeks meeting)
-- write code for online-questionnaire for stimuli validation
