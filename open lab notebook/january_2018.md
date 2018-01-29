@@ -28,6 +28,9 @@
 - tried to include movie sequences in psychopy
   - problems: auditory stimuli do not play during movie, experiment breaks after movie
 
+# week 29.01.-02.02.
+- installed GitKraken
+
 # plan for this week
 - work on psychopy-experiment and solve its problems
 - prepare short presentation on methods (for next weeks meeting)
