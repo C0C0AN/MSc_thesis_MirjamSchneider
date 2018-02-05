@@ -30,7 +30,12 @@
 
 # week 29.01.-02.02.
 - installed GitKraken
+- worked on psychopy experiment: still problems including the movie and playing the auditory stimuli simultanously (just one stimulus is played so the experiment does not seem to loop over trials)
+  - explained the problem  in psychopy discourse and got the answer that the problem is that I use code that is compiled from Builder view and therefore is difficult to transform
+  - found solution using Builder view! (Added movie to trial-block in Builder view and compiled code and saw how it is implemented in the experiment → applied it to my own experiment) 
+  - Added column “movie_stim” in run.csv-files so every run has its own movie sequence that is played during auditive stimulation
+  - Experiment finally works out incl. movie sequences!
+- Added my synopsis, the ethic proposal and some more information about the project on OSF
 
 # plan for this week
-- work on psychopy-experiment and solve its problems
 - prepare short presentation on methods (for next weeks meeting)
