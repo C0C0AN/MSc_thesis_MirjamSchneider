@@ -11,3 +11,11 @@
   - different question types can be implemented using html (no gui) – no difference to java script except it is a different language (tutorial: https://labjs.readthedocs.io/en/latest/learn/forms/2-elements.html) 
 - worked on presentation on methods (still reading the paper)
 - wrote my project proposal for the local Brainimaging Facility 
+
+# week 19.02.-23.02.
+- tested experiment at the scanner again (using the ‘old’ computer with a new setup)
+  - changed monitor settings in code: SetUp Window: size [1360,768], fullscr=True → now the window fits the scanner computer and the presentation screen
+  - problem: the video freezes at about 3 min → maybe because there is too much to load for psychopy/the computer 
+tried to find some option to preload video but did not found anything 
+- converted videos to mp4, but size stayed the same, so I do not know if this will change anything (ffmpeg -i movie.mkv -codec copy movie.mp4)
+- worked on presentation on methods
