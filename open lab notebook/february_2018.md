@@ -19,3 +19,12 @@
 tried to find some option to preload video but did not found anything 
 - converted videos to mp4, but size stayed the same, so I do not know if this will change anything (ffmpeg -i movie.mkv -codec copy movie.mp4)
 - worked on presentation on methods
+
+# week 26.02.-02.03.
+- worked on online survey with Christoph
+  - corrected some errors and typos in the questionnaire script
+  - survey runs and information is saved, music stimuli have to be included
+- worked on presentation on methods
+- tested experiment at the scanner again and the videos still stop in the middle of the run
+  - Klara checked the experiment at her laptop and it worked
+  - maybe the problem is my "broken" usb-stick or missing updates at the scanner-computer
