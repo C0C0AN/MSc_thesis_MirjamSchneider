@@ -2,7 +2,7 @@
 - BipoLife training in Dresden for job as student research assistant
 
 # week 08.01.-12.01.
-- solved the "delay-problem" in my [script for design construction](https://github.com/MirjamSchneider/MSc_thesis_MirjamSchneider/blob/master/open%20lab%20notebook/make_design.py) using a list including every possible delay (4,6,8) 13 times where every index is picked once per run (added a delay of 0 for the last stimulus)
+- solved the "delay-problem" in my [script for design construction](https://github.com/MirjamSchneider/MSc_thesis_MirjamSchneider/blob/master/code/make_design.py) using a list including every possible delay (4,6,8) 13 times where every index is picked once per run (added a delay of 0 for the last stimulus)
 - submitted second version of ethic proposal
 - tried the experiment at the scanner again: did a first functional scan and everything seems to work out
   - tried different values for field of view and other settings
