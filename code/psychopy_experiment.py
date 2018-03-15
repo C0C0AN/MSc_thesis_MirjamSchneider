@@ -1,3 +1,5 @@
+# general structure of experiment by Hanke et al. (http://psydata.ovgu.de/forrest_gump/stimulus/task002/)
+
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
