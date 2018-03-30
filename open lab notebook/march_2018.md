@@ -14,3 +14,9 @@ there is a column with numbers in it – I do not know why
 # week 19.03.-23.03.
 - wrote a first version of data management plan
 - replaced some of the movie-files with less violent clips (also from the planet earth docu)
+
+# week 26.03.-30.03.
+- worked on a script to read out the output I get from the online stimulus validation survey
+  - did not figure out yet how to convert json strings or objects zu python arrays
+- learned more about music feature extraction and discovered some problems with using [bregman toolkit](https://github.com/bregmanstudio/BregmanToolkit) on my laptop
+  - plan to have a closer look at [essentia](http://essentia.upf.edu/documentation/) and [pliers](https://github.com/tyarkoni/pliers) as alternatives
