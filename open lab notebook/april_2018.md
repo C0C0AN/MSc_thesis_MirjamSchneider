@@ -16,3 +16,12 @@ as the strings have to be copied manually anyways this seems to be the easiest s
   - it seems possible to extract features using pliers and calculate their distance using bregman (as pliers has no distance calculator)
 - repeated some jupyter-notebooks on pandas and numpy including new notebooks form peers workshop
 - worked on questionnaire analysis: still some problems occur concerning missing values in certain columns
+
+# week 23.04.-27.04.
+- still problems using the questionnaire analysis script
+  - problem was ‘ü’ which was not processed correctly
+  - corrected the json string replacing all remaining umlaute
+  - now the analysis script is working
+- wrote a mail to send the link to questionnaire to certain people
+  - contacted some people to do the questionnaire
+- corrected missing commas, spaces etc. in the english version of the json string
