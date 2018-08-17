@@ -12,3 +12,20 @@ y-axis was wrong labeled (reversed) so I changed one line in the code, now it is
 - RDM computation of activation in rois (matlab)
   - plotting in URIAL also worked out after adding categories as column names
   - have to preprocess all my subjects and compute the RDMs for each sub and each roi in the next week, preprocessing is running
+
+# week 13.08.-17.08.
+- started to write introduction of thesis 
+- finished preprocessing of all subjects incl. roi transformation
+- created matrices for each subject for each roi in matlab 
+- wrote small script to add column names (genre categories) to csv-files (rdm_add_column_names.py)
+- concatenated csv-files of rois to pkls and computed average rdms per rois 
+  - plotted average rdms
+- compared each roi-pkl with the music-feature-pkl
+  - results show mostly very low correlations 
+- created all_regions_pkl that includes all average rdms of all rois
+  - compared behavioral pkl to this all_regions_pkl → correlation about 0.0 in all regions
+- created csv-files in matlab for noisenormalized matrices (pcm)
+  - sub-16 as an example, shows a gradient across matrix that makes no sense
+- created csv-files in matlab for LDC matrices (rsa)
+  - got 1x190 array and I do not get how to transform this into a 20x20 matrix, because the 0-diagonal is missing and I need to mirror the 190 values in a correct way along this diagonal
+  - visualization in matlab is possible (but makes no sense), visualization in python not possible
