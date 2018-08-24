@@ -29,3 +29,14 @@ y-axis was wrong labeled (reversed) so I changed one line in the code, now it is
 - created csv-files in matlab for LDC matrices (rsa)
   - got 1x190 array and I do not get how to transform this into a 20x20 matrix, because the 0-diagonal is missing and I need to mirror the 190 values in a correct way along this diagonal
   - visualization in matlab is possible (but makes no sense), visualization in python not possible
+
+# week 20.08.-24.08.
+- wrote parts of introduction to my thesis
+  - basic fMRI part 
+  - what is a music genre 
+  - music feature extraction 
+  - aims and hypotheses
+  - started with: Previous literature and introduction to RSA and PCM
+- read about RSA, PCM and MVPA in general 
+- tried some analyses using URIAL
+  - there seems to be a problem, Peer is going to look at it
